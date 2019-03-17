@@ -1,0 +1,24 @@
+{
+  "name": "react-socket-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "prop-types": "^15.6.0",
+    "react": "^16.1.0",
+    "react-bootstrap": "^0.31.5",
+    "react-cookie": "^2.1.1",
+    "react-dom": "^16.1.0",
+    "react-scripts": "1.0.17",
+    "sockjs-client": "^1.1.4",
+    "stompjs": "^2.3.3",
+    "universal-cookie": "^2.1.0",
+    "ws": "^6.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

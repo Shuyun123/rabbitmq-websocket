@@ -34,7 +34,7 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
     public void configureMessageBroker(MessageBrokerRegistry registry) {
 
         registry.enableStompBrokerRelay("/topic", "/queue")
-                .setRelayHost("172.16.66.18")      // rabbitmq-host服务器地址
+                .setRelayHost("localhost")      // rabbitmq-host服务器地址
                 .setRelayPort(61613)     // rabbitmq-stomp 服务器服务端口
                 .setClientLogin("guest")   // 登陆账户
                 .setClientPasscode("guest"); // 登陆密码
